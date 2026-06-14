@@ -26,7 +26,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/github/${input.trim()}`
+        `https://github-repo-explorer-s6a1.onrender.com/api/github/${input.trim()}`
       );
 
       if (!response.ok) {
